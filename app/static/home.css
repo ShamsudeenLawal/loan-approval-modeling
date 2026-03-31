@@ -1,0 +1,59 @@
+body {
+        font-family: "Inter", sans-serif;
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background: transparent;
+  border-bottom: none;
+  text-align: center;
+}
+
+.card-header h2 {
+  font-weight: 700;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: #2a5298;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #1e3c72;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.approved {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+}
