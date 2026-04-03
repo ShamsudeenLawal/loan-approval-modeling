@@ -1,6 +1,6 @@
 ipykernel
-pandas
-seaborn
-matplotlib
-scikit-learn
-statsmodels
+pandas==2.3.3
+seaborn==0.13.2
+matplotlib==3.10.8
+scikit-learn==1.8.0
+statsmodels==0.14.6
