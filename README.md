@@ -200,8 +200,8 @@ The final model is deployed using Flask.
 ## ▶️ How to Run
 ### 1. Clone repository
 ```bash
-git clone <repo-url>
-cd loan-status-prediction
+git clone https://github.com/ShamsudeenLawal/loan-approval-modeling
+cd loan-approval-modeling
 ```
 
 ### 2. Install dependencies
