@@ -48,12 +48,11 @@ class PredictPipeline:
 
     def predict(self, features):
         try:
-            preds = self.model.predict(features)[0]
-            proba = self.model.predict_proba(features)[0][1]
+            pred = self.model.predict(features)[0]
+            prediction = "Approve" if pred == 1 else "Reject"
 
             return {
-                "prediction": preds,
-                "probability": float(proba)
+                "prediction": prediction,
             }
 
         except Exception as e:

@@ -208,3 +208,6 @@ __marimo__/
 
 # my files and directories
 resources/
+online_exploration.ipynb
+online_exploration_copy.ipynb
+catboost_info
